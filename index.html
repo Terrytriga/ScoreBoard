@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="Home">
+
+                <h3>HOME</h3>
+
+                <h2 id="Hscore-board">0</h2>
+
+                <div class="buttons">
+                    <button onclick="Hplus1()">+1</button>
+                    <button onclick="Hplus2()">+2</button>
+                    <button onclick="Hplus3()">+3</button>
+                    
+                </div>
+            
+            </div>
+            
+            <div class="extraBtn">
+                <h2 id="leader">Start Game</h2>
+                <button onclick ="leader()">leader</button>
+                <button id="reset" onclick="reset()">reset</button>       
+            </div>
+            <div class="Away">
+                <h3>GUEST</h3>
+                <h2 id="Ascore-board">0</h2>
+                <div class="buttons">
+                    <button onclick="plus1()">+1</button>
+                    <button onclick="plus2()">+2</button>
+                    <button onclick="plus3()">+3</button>   
+                </div>    
+            </div>
+            
+                            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
